@@ -1,0 +1,211 @@
+
+				#id {
+					background-color: blue;
+					color: white
+
+					}	
+				.class{		
+					/*background-color: red;*/
+					color: black;
+					font-size: 24px;
+					border: 1px black solid;
+				      width:50%;
+				      /*border-collapse: collapse;*/
+				      padding: 10px;
+				      text-align: center;
+				  }
+				  tr:hover{		
+					background-color: aquamarine;
+					
+				  }
+				  tr:nth-child(2){
+				  		background-color: grey;
+				  }
+				 
+				  .class1{		
+					/*background-color: red;*/
+					color: black;
+					font-size: 24px;
+					border: 5px black solid;
+				      width:50%;
+				      border-collapse: collapse;
+				      margin-top: 50px;
+				      margin-bottom: 50px;
+				      margin-left: 10px;
+				      margin-right: 10px;
+				  }
+
+				#imgid{
+
+					border: 5px green solid;
+
+					border-radius: 50px;
+
+				}
+				
+				#tblbdr{
+
+					border: 5px black solid;
+					border-radius: 20px;
+				}
+				
+
+					.btn{
+						background-color: green;
+						color: white;
+						height: 100px;
+						padding: 10px 10px;
+						font-size: 20px;	
+
+					}
+					 .btn:hover{
+						background-color: orange;
+						 	
+
+					}
+				btn:hover{
+						background-color: orange;
+						 	
+
+					}
+				
+					/*website grid layout*/
+					header{
+						background-color: #f1f1f1;
+						text-align: center;
+						padding: 10px;
+						}
+						nav{
+    					background-color: #222;
+    					padding: 20px
+						}
+						nav ul{
+					    display: inline;
+					    list-style: none;
+					    text-align: center;
+					    color: #fff;
+						}
+						ul li {
+					    display: inline;
+						padding: 10px;
+						color:white
+					    }		
+						.main{
+						margin-top: 10px;
+						}
+						.column{
+						margin:10px 0px ;
+							float: left;
+					    width: 32.33%;
+					    background-color: #f1f1f1;
+					    text-align: center;
+					    height: 250px;
+					    }
+					    .column-b{
+					    margin: 10px 10px;
+					    float: left;
+					    width: 32.33%;
+					    background-color: #f1f1f1;
+					    text-align: center;
+					    height: 250px;
+					}
+					.column:hover,.column-b:hover{
+							opacity: 0.7;
+
+					}
+					.saleem-nav{
+
+						background-color: red !important;
+					}
+
+
+					
+					footer{
+					   height:50px;
+						margin-top: 50%;
+					    background-color: #666;
+					    text-align: center;
+						padding: 5px;
+						position: fixed;
+						bottom: 0px;
+						width:100%;
+                    }
+				img{
+					height:150;
+					width:180;
+				}
+
+				.center {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+					vertical-align: middle;
+				}
+
+				/* google style */
+				body {background-color: white}
+				/* h1   {color: blue;}
+				p    {color: red;} */
+				
+				.navbar{
+
+					background-color: rgba(225, 225, 225, 0.1);  
+
+				}
+				
+				.manageright{
+					top:8px;
+					/* position:relative; */
+					/* margin-left:90%; */
+					float:right;
+
+				}
+				
+				.topright {
+					/* position: relative; */
+					/* top: 8px; */
+					/* left: 96px; */
+					font-size: 18px;
+					display:inline;
+				}
+					
+					
+					#images {
+						/* position: relative; */
+						/* top: 8px; */
+						/* left: 76px; */
+						font-size: 18px;
+						display:inline;
+					}
+
+				.clearfix::after{
+					content:"";
+					visibility:hidden;
+					display: block;
+					clear: both;
+					}
+				.centralize{
+					/* position: ; */
+					left: 0;
+ 				    top: 50%;
+					width: 100%;
+					text-align: center;
+					font-size: 18px;
+					padding: 25px;
+
+				}
+				.googleimg{
+
+					position:relative;
+					margin:auto;
+
+
+				}
+				.alingment{
+
+					position:relative;
+					top:50%;
+
+
+				}
